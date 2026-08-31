@@ -1,0 +1,28 @@
+[0.523s] Invoking command in '/home/rose/ros_project/ros_ws/src/myrobot_application': PYTHONPATH=/home/rose/ros_project/ros_ws/build/myrobot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot_application build --build-base /home/rose/ros_project/ros_ws/build/myrobot_application/build install --record /home/rose/ros_project/ros_ws/build/myrobot_application/install.log --install-scripts $base/lib/myrobot_application --single-version-externally-managed install_data
+[0.653s] running egg_info
+[0.654s] writing ../../build/myrobot_application/myrobot_application.egg-info/PKG-INFO
+[0.654s] writing dependency_links to ../../build/myrobot_application/myrobot_application.egg-info/dependency_links.txt
+[0.654s] writing entry points to ../../build/myrobot_application/myrobot_application.egg-info/entry_points.txt
+[0.655s] writing requirements to ../../build/myrobot_application/myrobot_application.egg-info/requires.txt
+[0.655s] writing top-level names to ../../build/myrobot_application/myrobot_application.egg-info/top_level.txt
+[0.655s] reading manifest file '../../build/myrobot_application/myrobot_application.egg-info/SOURCES.txt'
+[0.656s] adding license file 'LICENSE'
+[0.656s] writing manifest file '../../build/myrobot_application/myrobot_application.egg-info/SOURCES.txt'
+[0.656s] running build
+[0.656s] running build_py
+[0.656s] copying myrobot_application/get_robot_pose.py -> /home/rose/ros_project/ros_ws/build/myrobot_application/build/lib/myrobot_application
+[0.657s] copying myrobot_application/init_robot_pose.py -> /home/rose/ros_project/ros_ws/build/myrobot_application/build/lib/myrobot_application
+[0.657s] running install
+[0.657s] running install_lib
+[0.658s] copying /home/rose/ros_project/ros_ws/build/myrobot_application/build/lib/myrobot_application/get_robot_pose.py -> /home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application
+[0.658s] copying /home/rose/ros_project/ros_ws/build/myrobot_application/build/lib/myrobot_application/init_robot_pose.py -> /home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application
+[0.658s] byte-compiling /home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[0.658s] byte-compiling /home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[0.658s] running install_data
+[0.659s] running install_egg_info
+[0.659s] removing '/home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[0.660s] Copying ../../build/myrobot_application/myrobot_application.egg-info to /home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages/myrobot_application-0.0.0-py3.10.egg-info
+[0.660s] running install_scripts
+[0.672s] Installing init_robot_pose script to /home/rose/ros_project/ros_ws/install/myrobot_application/lib/myrobot_application
+[0.672s] writing list of installed files to '/home/rose/ros_project/ros_ws/build/myrobot_application/install.log'
+[0.684s] Invoked command in '/home/rose/ros_project/ros_ws/src/myrobot_application' returned '0': PYTHONPATH=/home/rose/ros_project/ros_ws/build/myrobot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rose/ros_project/ros_ws/install/myrobot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot_application build --build-base /home/rose/ros_project/ros_ws/build/myrobot_application/build install --record /home/rose/ros_project/ros_ws/build/myrobot_application/install.log --install-scripts $base/lib/myrobot_application --single-version-externally-managed install_data
