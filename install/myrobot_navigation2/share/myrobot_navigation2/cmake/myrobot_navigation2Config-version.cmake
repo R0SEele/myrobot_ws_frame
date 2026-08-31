@@ -1,0 +1,1 @@
+/home/rose/ros_project/ros_ws/build/myrobot_navigation2/ament_cmake_core/myrobot_navigation2Config-version.cmake

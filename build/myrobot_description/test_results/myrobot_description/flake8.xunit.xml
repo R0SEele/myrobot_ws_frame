@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="myrobot_description.flake8"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.048"
+>
+  <testcase
+    name="flake8"
+    classname="myrobot_description.flake8"/>
+  <system-out>Checked files:
+* ./launch/display_robot.launch.py
+* ./launch/gazebo_sim.launch.py</system-out>
+</testsuite>

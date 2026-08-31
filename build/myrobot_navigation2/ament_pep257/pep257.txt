@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_navigation2':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml
+
+checking ./launch/navigation2.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml'

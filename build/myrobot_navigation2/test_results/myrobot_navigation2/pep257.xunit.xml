@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="myrobot_navigation2.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.007"
+>
+  <testcase
+    name="./launch/navigation2.launch.py"
+    classname="myrobot_navigation2.pep257"/>
+  <system-out>Checked files:
+* ./launch/navigation2.launch.py</system-out>
+</testsuite>

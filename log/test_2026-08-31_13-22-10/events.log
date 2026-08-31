@@ -1,0 +1,497 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (myrobot_description) JobQueued: {'identifier': 'myrobot_description', 'dependencies': OrderedDict([('myrobot_description', '/home/rose/ros_project/ros_ws/install/myrobot_description')])}
+[0.000400] (myrobot_navigation2) JobQueued: {'identifier': 'myrobot_navigation2', 'dependencies': OrderedDict([('myrobot_navigation2', '/home/rose/ros_project/ros_ws/install/myrobot_navigation2')])}
+[0.000585] (myrobot_description) JobStarted: {'identifier': 'myrobot_description'}
+[0.004617] (myrobot_navigation2) JobStarted: {'identifier': 'myrobot_navigation2'}
+[0.014786] (myrobot_description) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/rose/ros_project/ros_ws/build/myrobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rose/ros_project/ros_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rose'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/tcf.json","messagesFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/nls.messages.json","corruptMarkerFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"4c1d03004af65f9b16ba94f4936a2bd5.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/tcf.json","_cacheRoot":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5","_corruptedFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rose'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-2b4e82dd-1.13-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1780'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4cbfcaec8348a7fd054837996a950625'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rose'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'rose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rose/.local/bin:/home/rose/.codex/tmp/arg0/codex-arg0nGSDXy:/home/rose/.npm-global/bin:/home/rose/.npm-global/bin:/opt/ros/humble/bin:/home/rose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rose/.vscode/extensions/openai.chatgpt-26.825.51511-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/rose:@/tmp/.ICE-unix/1780,unix/rose:/tmp/.ICE-unix/1780'), ('CODEX_SESSION_ID', '01a0563d-f555-7673-9396-a847b12c467c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbf8192_b9a5_4843_870b_32046e06df99'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZQYSU3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rose/ros_project/ros_ws/install/myrobot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0563d-f555-7673-9396-a847b12c467c'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rose/ros_project/ros_ws/build/myrobot_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rose/.config/Code/CachedData/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4cbfcaec8348a7fd054837996a950625'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '21497'), ('CMAKE_PREFIX_PATH', '/home/rose/ros_project/ros_ws/install/myrobot_description')]), 'shell': False}
+[0.020496] (myrobot_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/rose/ros_project/ros_ws/build/myrobot_description/CTestConfiguration.ini\n'}
+[0.020842] (myrobot_description) StdoutLine: {'line': b'Parse Config file:/home/rose/ros_project/ros_ws/build/myrobot_description/CTestConfiguration.ini\n'}
+[0.020904] (myrobot_description) StdoutLine: {'line': b'   Site: rose\n'}
+[0.020960] (myrobot_description) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.020996] (myrobot_navigation2) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/rose/ros_project/ros_ws/build/myrobot_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rose/ros_project/ros_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rose'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/tcf.json","messagesFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/nls.messages.json","corruptMarkerFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"4c1d03004af65f9b16ba94f4936a2bd5.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/tcf.json","_cacheRoot":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5","_corruptedFile":"/home/rose/.config/Code/clp/4c1d03004af65f9b16ba94f4936a2bd5.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rose'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-2b4e82dd-1.13-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1780'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4cbfcaec8348a7fd054837996a950625'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rose'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'rose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rose/.local/bin:/home/rose/.codex/tmp/arg0/codex-arg0nGSDXy:/home/rose/.npm-global/bin:/home/rose/.npm-global/bin:/opt/ros/humble/bin:/home/rose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rose/.vscode/extensions/openai.chatgpt-26.825.51511-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/rose:@/tmp/.ICE-unix/1780,unix/rose:/tmp/.ICE-unix/1780'), ('CODEX_SESSION_ID', '01a0563d-f555-7673-9396-a847b12c467c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbf8192_b9a5_4843_870b_32046e06df99'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZQYSU3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rose/ros_project/ros_ws/install/myrobot_navigation2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0563d-f555-7673-9396-a847b12c467c'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rose/ros_project/ros_ws/build/myrobot_navigation2'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rose/.config/Code/CachedData/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4cbfcaec8348a7fd054837996a950625'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '21497'), ('CMAKE_PREFIX_PATH', '/home/rose/ros_project/ros_ws/install/myrobot_navigation2')]), 'shell': False}
+[0.021360] (myrobot_description) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.021420] (myrobot_description) StdoutLine: {'line': b'Create new tag: 20260831-0522 - Experimental\n'}
+[0.021476] (myrobot_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/rose/ros_project/ros_ws/build/myrobot_description/CTestConfiguration.ini\n'}
+[0.021509] (myrobot_description) StdoutLine: {'line': b'Parse Config file:/home/rose/ros_project/ros_ws/build/myrobot_description/CTestConfiguration.ini\n'}
+[0.021540] (myrobot_description) StdoutLine: {'line': b'Test project /home/rose/ros_project/ros_ws/build/myrobot_description\n'}
+[0.021577] (myrobot_description) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.021609] (myrobot_description) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.021640] (myrobot_description) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.021669] (myrobot_description) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.021698] (myrobot_description) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.021726] (myrobot_description) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.021753] (myrobot_description) StdoutLine: {'line': b'test 1\n'}
+[0.021784] (myrobot_description) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[0.021813] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.021841] (myrobot_description) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/flake8.xunit.xml" "--package-name" "myrobot_description" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/flake8.xunit.xml"\n'}
+[0.021888] (myrobot_description) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.025238] (myrobot_navigation2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/rose/ros_project/ros_ws/build/myrobot_navigation2/CTestConfiguration.ini\n'}
+[0.025543] (myrobot_navigation2) StdoutLine: {'line': b'Parse Config file:/home/rose/ros_project/ros_ws/build/myrobot_navigation2/CTestConfiguration.ini\n'}
+[0.025621] (myrobot_navigation2) StdoutLine: {'line': b'   Site: rose\n'}
+[0.025654] (myrobot_navigation2) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.025701] (myrobot_navigation2) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.025733] (myrobot_navigation2) StdoutLine: {'line': b'Create new tag: 20260831-0522 - Experimental\n'}
+[0.025767] (myrobot_navigation2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/rose/ros_project/ros_ws/build/myrobot_navigation2/CTestConfiguration.ini\n'}
+[0.025797] (myrobot_navigation2) StdoutLine: {'line': b'Parse Config file:/home/rose/ros_project/ros_ws/build/myrobot_navigation2/CTestConfiguration.ini\n'}
+[0.025992] (myrobot_navigation2) StdoutLine: {'line': b'Test project /home/rose/ros_project/ros_ws/build/myrobot_navigation2\n'}
+[0.026050] (myrobot_navigation2) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.026106] (myrobot_navigation2) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.026162] (myrobot_navigation2) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.026216] (myrobot_navigation2) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.026271] (myrobot_navigation2) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.026326] (myrobot_navigation2) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.026381] (myrobot_navigation2) StdoutLine: {'line': b'test 1\n'}
+[0.026435] (myrobot_navigation2) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[0.026490] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.026544] (myrobot_navigation2) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/flake8.xunit.xml" "--package-name" "myrobot_navigation2" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/flake8.xunit.xml"\n'}
+[0.026612] (myrobot_navigation2) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.054741] (myrobot_description) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_description':\n"}
+[0.054873] (myrobot_description) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/flake8.xunit.xml\n'}
+[0.058717] (myrobot_navigation2) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_navigation2':\n"}
+[0.058854] (myrobot_navigation2) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/flake8.xunit.xml\n'}
+[0.099672] (-) TimerEvent: {}
+[0.146088] (myrobot_navigation2) StdoutLine: {'line': b'1: \n'}
+[0.146201] (myrobot_navigation2) StdoutLine: {'line': b'1: 1 files checked\n'}
+[0.146234] (myrobot_navigation2) StdoutLine: {'line': b'1: No problems found\n'}
+[0.146265] (myrobot_navigation2) StdoutLine: {'line': b'1: \n'}
+[0.146295] (myrobot_navigation2) StdoutLine: {'line': b'1: Checked files:\n'}
+[0.146327] (myrobot_navigation2) StdoutLine: {'line': b'1: \n'}
+[0.146355] (myrobot_navigation2) StdoutLine: {'line': b'1: * ./launch/navigation2.launch.py\n'}
+[0.153052] (myrobot_description) StdoutLine: {'line': b'1: \n'}
+[0.153172] (myrobot_description) StdoutLine: {'line': b'1: 2 files checked\n'}
+[0.153206] (myrobot_description) StdoutLine: {'line': b'1: No problems found\n'}
+[0.153237] (myrobot_description) StdoutLine: {'line': b'1: \n'}
+[0.153266] (myrobot_description) StdoutLine: {'line': b'1: Checked files:\n'}
+[0.153295] (myrobot_description) StdoutLine: {'line': b'1: \n'}
+[0.153323] (myrobot_description) StdoutLine: {'line': b'1: * ./launch/display_robot.launch.py\n'}
+[0.153352] (myrobot_description) StdoutLine: {'line': b'1: * ./launch/gazebo_sim.launch.py\n'}
+[0.155090] (myrobot_navigation2) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.155236] (myrobot_navigation2) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/flake8.xunit.xml'\n"}
+[0.161165] (myrobot_navigation2) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................   Passed    0.14 sec\n'}
+[0.161297] (myrobot_navigation2) StdoutLine: {'line': b'test 2\n'}
+[0.161330] (myrobot_navigation2) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.161360] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.161388] (myrobot_navigation2) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/lint_cmake.xunit.xml" "--package-name" "myrobot_navigation2" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/lint_cmake.xunit.xml"\n'}
+[0.161419] (myrobot_navigation2) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.165198] (myrobot_description) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.165304] (myrobot_description) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/flake8.xunit.xml'\n"}
+[0.170380] (myrobot_description) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................   Passed    0.15 sec\n'}
+[0.170462] (myrobot_description) StdoutLine: {'line': b'test 2\n'}
+[0.170495] (myrobot_description) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.170525] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.170553] (myrobot_description) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml" "--package-name" "myrobot_description" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml"\n'}
+[0.170603] (myrobot_description) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.195334] (myrobot_navigation2) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_navigation2':\n"}
+[0.195450] (myrobot_navigation2) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/lint_cmake.xunit.xml\n'}
+[0.199782] (-) TimerEvent: {}
+[0.202945] (myrobot_description) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_description':\n"}
+[0.203077] (myrobot_description) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml\n'}
+[0.231450] (myrobot_navigation2) StdoutLine: {'line': b'2: \n'}
+[0.231610] (myrobot_navigation2) StdoutLine: {'line': b'2: No problems found\n'}
+[0.236379] (myrobot_navigation2) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.236743] (myrobot_navigation2) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/lint_cmake.xunit.xml'\n"}
+[0.239358] (myrobot_description) StdoutLine: {'line': b'2: \n'}
+[0.239433] (myrobot_description) StdoutLine: {'line': b'2: No problems found\n'}
+[0.242012] (myrobot_navigation2) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.08 sec\n'}
+[0.242079] (myrobot_navigation2) StdoutLine: {'line': b'test 3\n'}
+[0.242125] (myrobot_navigation2) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[0.242181] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.242237] (myrobot_navigation2) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml" "--package-name" "myrobot_navigation2" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml"\n'}
+[0.242310] (myrobot_navigation2) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.243955] (myrobot_description) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.244129] (myrobot_description) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml'\n"}
+[0.249741] (myrobot_description) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.08 sec\n'}
+[0.249862] (myrobot_description) StdoutLine: {'line': b'test 3\n'}
+[0.249901] (myrobot_description) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[0.249958] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.250012] (myrobot_description) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/pep257.xunit.xml" "--package-name" "myrobot_description" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/pep257.xunit.xml"\n'}
+[0.250063] (myrobot_description) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.276053] (myrobot_navigation2) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_navigation2':\n"}
+[0.276192] (myrobot_navigation2) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml\n'}
+[0.281359] (myrobot_description) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_description':\n"}
+[0.281473] (myrobot_description) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/pep257.xunit.xml\n'}
+[0.299912] (-) TimerEvent: {}
+[0.338820] (myrobot_navigation2) StdoutLine: {'line': b'3: checking ./launch/navigation2.launch.py\n'}
+[0.338959] (myrobot_navigation2) StdoutLine: {'line': b'3: No problems found\n'}
+[0.347644] (myrobot_description) StdoutLine: {'line': b'3: checking ./launch/display_robot.launch.py\n'}
+[0.347794] (myrobot_description) StdoutLine: {'line': b'3: checking ./launch/gazebo_sim.launch.py\n'}
+[0.348050] (myrobot_description) StdoutLine: {'line': b'3: No problems found\n'}
+[0.348400] (myrobot_navigation2) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.348449] (myrobot_navigation2) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/pep257.xunit.xml'\n"}
+[0.352799] (myrobot_navigation2) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.11 sec\n'}
+[0.352915] (myrobot_navigation2) StdoutLine: {'line': b'test 4\n'}
+[0.352948] (myrobot_navigation2) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[0.352978] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.353007] (myrobot_navigation2) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/xmllint.xunit.xml" "--package-name" "myrobot_navigation2" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/xmllint.xunit.xml"\n'}
+[0.353120] (myrobot_navigation2) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.355819] (myrobot_description) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.356096] (myrobot_description) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/pep257.xunit.xml'\n"}
+[0.361180] (myrobot_description) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.11 sec\n'}
+[0.361275] (myrobot_description) StdoutLine: {'line': b'test 4\n'}
+[0.361308] (myrobot_description) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[0.361337] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.361366] (myrobot_description) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/xmllint.xunit.xml" "--package-name" "myrobot_description" "--output-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/xmllint.xunit.xml"\n'}
+[0.361398] (myrobot_description) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.387619] (myrobot_navigation2) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_navigation2':\n"}
+[0.387766] (myrobot_navigation2) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/xmllint.xunit.xml\n'}
+[0.395826] (myrobot_description) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_description':\n"}
+[0.395949] (myrobot_description) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/xmllint.xunit.xml\n'}
+[0.400101] (-) TimerEvent: {}
+[0.428498] (myrobot_navigation2) StdoutLine: {'line': b"4: File 'package.xml' is invalid:\n"}
+[0.428678] (myrobot_navigation2) StdoutLine: {'line': b'4: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[0.428723] (myrobot_navigation2) StdoutLine: {'line': b"4: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[0.428771] (myrobot_navigation2) StdoutLine: {'line': b'4: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[0.428821] (myrobot_navigation2) StdoutLine: {'line': b'4: \n'}
+[0.428877] (myrobot_navigation2) StdoutLine: {'line': b'4: 1 files are invalid\n'}
+[0.435633] (myrobot_navigation2) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[0.435774] (myrobot_navigation2) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_navigation2/test_results/myrobot_navigation2/xmllint.xunit.xml'\n"}
+[0.438122] (myrobot_description) StdoutLine: {'line': b"4: File 'package.xml' is invalid:\n"}
+[0.438246] (myrobot_description) StdoutLine: {'line': b'4: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[0.438304] (myrobot_description) StdoutLine: {'line': b"4: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[0.438360] (myrobot_description) StdoutLine: {'line': b'4: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[0.438415] (myrobot_description) StdoutLine: {'line': b'4: \n'}
+[0.438469] (myrobot_description) StdoutLine: {'line': b'4: 1 files are invalid\n'}
+[0.440413] (myrobot_navigation2) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................***Failed    0.09 sec\n'}
+[0.440684] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.440809] (myrobot_navigation2) StdoutLine: {'line': b'75% tests passed, 1 tests failed out of 4\n'}
+[0.440863] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.440894] (myrobot_navigation2) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.440923] (myrobot_navigation2) StdoutLine: {'line': b'flake8        =   0.14 sec*proc (1 test)\n'}
+[0.440952] (myrobot_navigation2) StdoutLine: {'line': b'lint_cmake    =   0.08 sec*proc (1 test)\n'}
+[0.440981] (myrobot_navigation2) StdoutLine: {'line': b'linter        =   0.41 sec*proc (4 tests)\n'}
+[0.441009] (myrobot_navigation2) StdoutLine: {'line': b'pep257        =   0.11 sec*proc (1 test)\n'}
+[0.441036] (myrobot_navigation2) StdoutLine: {'line': b'xmllint       =   0.09 sec*proc (1 test)\n'}
+[0.441064] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.441093] (myrobot_navigation2) StdoutLine: {'line': b'Total Test time (real) =   0.42 sec\n'}
+[0.441121] (myrobot_navigation2) StdoutLine: {'line': b'\n'}
+[0.441149] (myrobot_navigation2) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[0.441176] (myrobot_navigation2) StdoutLine: {'line': b'\t  4 - xmllint (Failed)\n'}
+[0.441335] (myrobot_navigation2) StderrLine: {'line': b'Errors while running CTest\n'}
+[0.441432] (myrobot_navigation2) StderrLine: {'line': b'Output from these tests are in: /home/rose/ros_project/ros_ws/build/myrobot_navigation2/Testing/Temporary/LastTest.log\n'}
+[0.441476] (myrobot_navigation2) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[0.442534] (myrobot_navigation2) CommandEnded: {'returncode': 8}
+[0.442857] (myrobot_navigation2) TestFailure: {'identifier': 'myrobot_navigation2'}
+[0.442873] (myrobot_navigation2) JobEnded: {'identifier': 'myrobot_navigation2', 'rc': 0}
+[0.445211] (myrobot_description) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[0.445714] (myrobot_description) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/xmllint.xunit.xml'\n"}
+[0.451478] (myrobot_description) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................***Failed    0.09 sec\n'}
+[0.451740] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.451826] (myrobot_description) StdoutLine: {'line': b'75% tests passed, 1 tests failed out of 4\n'}
+[0.451863] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.451895] (myrobot_description) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.451925] (myrobot_description) StdoutLine: {'line': b'flake8        =   0.15 sec*proc (1 test)\n'}
+[0.451953] (myrobot_description) StdoutLine: {'line': b'lint_cmake    =   0.08 sec*proc (1 test)\n'}
+[0.451982] (myrobot_description) StdoutLine: {'line': b'linter        =   0.43 sec*proc (4 tests)\n'}
+[0.452010] (myrobot_description) StdoutLine: {'line': b'pep257        =   0.11 sec*proc (1 test)\n'}
+[0.452039] (myrobot_description) StdoutLine: {'line': b'xmllint       =   0.09 sec*proc (1 test)\n'}
+[0.452067] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.452095] (myrobot_description) StdoutLine: {'line': b'Total Test time (real) =   0.43 sec\n'}
+[0.452122] (myrobot_description) StdoutLine: {'line': b'\n'}
+[0.452150] (myrobot_description) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[0.452178] (myrobot_description) StdoutLine: {'line': b'\t  4 - xmllint (Failed)\n'}
+[0.452455] (myrobot_description) StderrLine: {'line': b'Errors while running CTest\n'}
+[0.452528] (myrobot_description) StderrLine: {'line': b'Output from these tests are in: /home/rose/ros_project/ros_ws/build/myrobot_description/Testing/Temporary/LastTest.log\n'}
+[0.452565] (myrobot_description) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[0.500418] (-) TimerEvent: {}
+[0.600610] (-) TimerEvent: {}
+[0.700930] (-) TimerEvent: {}
+[0.801184] (-) TimerEvent: {}
+[0.901460] (-) TimerEvent: {}
+[1.001669] (-) TimerEvent: {}
+[1.101897] (-) TimerEvent: {}
+[1.202201] (-) TimerEvent: {}
+[1.302399] (-) TimerEvent: {}
+[1.402618] (-) TimerEvent: {}
+[1.502837] (-) TimerEvent: {}
+[1.603115] (-) TimerEvent: {}
+[1.703392] (-) TimerEvent: {}
+[1.803592] (-) TimerEvent: {}
+[1.903830] (-) TimerEvent: {}
+[2.004068] (-) TimerEvent: {}
+[2.104289] (-) TimerEvent: {}
+[2.204670] (-) TimerEvent: {}
+[2.304940] (-) TimerEvent: {}
+[2.405204] (-) TimerEvent: {}
+[2.505508] (-) TimerEvent: {}
+[2.605806] (-) TimerEvent: {}
+[2.706059] (-) TimerEvent: {}
+[2.806286] (-) TimerEvent: {}
+[2.906549] (-) TimerEvent: {}
+[3.006801] (-) TimerEvent: {}
+[3.107055] (-) TimerEvent: {}
+[3.207289] (-) TimerEvent: {}
+[3.307567] (-) TimerEvent: {}
+[3.407870] (-) TimerEvent: {}
+[3.508143] (-) TimerEvent: {}
+[3.608326] (-) TimerEvent: {}
+[3.708535] (-) TimerEvent: {}
+[3.808780] (-) TimerEvent: {}
+[3.908974] (-) TimerEvent: {}
+[4.009158] (-) TimerEvent: {}
+[4.109416] (-) TimerEvent: {}
+[4.209830] (-) TimerEvent: {}
+[4.310236] (-) TimerEvent: {}
+[4.410556] (-) TimerEvent: {}
+[4.510882] (-) TimerEvent: {}
+[4.611185] (-) TimerEvent: {}
+[4.711512] (-) TimerEvent: {}
+[4.811848] (-) TimerEvent: {}
+[4.912154] (-) TimerEvent: {}
+[5.012401] (-) TimerEvent: {}
+[5.112588] (-) TimerEvent: {}
+[5.212838] (-) TimerEvent: {}
+[5.313108] (-) TimerEvent: {}
+[5.413380] (-) TimerEvent: {}
+[5.513646] (-) TimerEvent: {}
+[5.614000] (-) TimerEvent: {}
+[5.714298] (-) TimerEvent: {}
+[5.814525] (-) TimerEvent: {}
+[5.914773] (-) TimerEvent: {}
+[6.015035] (-) TimerEvent: {}
+[6.115321] (-) TimerEvent: {}
+[6.215560] (-) TimerEvent: {}
+[6.315800] (-) TimerEvent: {}
+[6.416077] (-) TimerEvent: {}
+[6.516416] (-) TimerEvent: {}
+[6.616750] (-) TimerEvent: {}
+[6.716983] (-) TimerEvent: {}
+[6.817182] (-) TimerEvent: {}
+[6.917384] (-) TimerEvent: {}
+[7.017711] (-) TimerEvent: {}
+[7.118070] (-) TimerEvent: {}
+[7.218467] (-) TimerEvent: {}
+[7.318816] (-) TimerEvent: {}
+[7.419190] (-) TimerEvent: {}
+[7.519478] (-) TimerEvent: {}
+[7.619775] (-) TimerEvent: {}
+[7.720099] (-) TimerEvent: {}
+[7.820288] (-) TimerEvent: {}
+[7.920562] (-) TimerEvent: {}
+[8.020881] (-) TimerEvent: {}
+[8.121252] (-) TimerEvent: {}
+[8.221619] (-) TimerEvent: {}
+[8.321955] (-) TimerEvent: {}
+[8.422338] (-) TimerEvent: {}
+[8.522556] (-) TimerEvent: {}
+[8.622778] (-) TimerEvent: {}
+[8.723033] (-) TimerEvent: {}
+[8.823244] (-) TimerEvent: {}
+[8.923445] (-) TimerEvent: {}
+[9.023651] (-) TimerEvent: {}
+[9.124510] (-) TimerEvent: {}
+[9.224891] (-) TimerEvent: {}
+[9.325255] (-) TimerEvent: {}
+[9.425490] (-) TimerEvent: {}
+[9.525737] (-) TimerEvent: {}
+[9.626168] (-) TimerEvent: {}
+[9.726501] (-) TimerEvent: {}
+[9.826930] (-) TimerEvent: {}
+[9.927314] (-) TimerEvent: {}
+[10.027704] (-) TimerEvent: {}
+[10.128020] (-) TimerEvent: {}
+[10.228354] (-) TimerEvent: {}
+[10.328555] (-) TimerEvent: {}
+[10.428862] (-) TimerEvent: {}
+[10.529236] (-) TimerEvent: {}
+[10.629696] (-) TimerEvent: {}
+[10.730287] (-) TimerEvent: {}
+[10.830584] (-) TimerEvent: {}
+[10.930892] (-) TimerEvent: {}
+[11.031194] (-) TimerEvent: {}
+[11.131763] (-) TimerEvent: {}
+[11.231959] (-) TimerEvent: {}
+[11.332206] (-) TimerEvent: {}
+[11.432547] (-) TimerEvent: {}
+[11.532828] (-) TimerEvent: {}
+[11.633145] (-) TimerEvent: {}
+[11.733460] (-) TimerEvent: {}
+[11.833761] (-) TimerEvent: {}
+[11.934071] (-) TimerEvent: {}
+[12.034334] (-) TimerEvent: {}
+[12.134748] (-) TimerEvent: {}
+[12.235029] (-) TimerEvent: {}
+[12.335253] (-) TimerEvent: {}
+[12.435473] (-) TimerEvent: {}
+[12.535735] (-) TimerEvent: {}
+[12.636007] (-) TimerEvent: {}
+[12.736354] (-) TimerEvent: {}
+[12.836592] (-) TimerEvent: {}
+[12.936846] (-) TimerEvent: {}
+[13.037091] (-) TimerEvent: {}
+[13.137343] (-) TimerEvent: {}
+[13.237655] (-) TimerEvent: {}
+[13.337989] (-) TimerEvent: {}
+[13.438777] (-) TimerEvent: {}
+[13.539200] (-) TimerEvent: {}
+[13.639484] (-) TimerEvent: {}
+[13.739763] (-) TimerEvent: {}
+[13.839976] (-) TimerEvent: {}
+[13.940224] (-) TimerEvent: {}
+[14.040494] (-) TimerEvent: {}
+[14.140769] (-) TimerEvent: {}
+[14.240966] (-) TimerEvent: {}
+[14.341258] (-) TimerEvent: {}
+[14.441532] (-) TimerEvent: {}
+[14.541756] (-) TimerEvent: {}
+[14.641984] (-) TimerEvent: {}
+[14.742215] (-) TimerEvent: {}
+[14.842446] (-) TimerEvent: {}
+[14.942792] (-) TimerEvent: {}
+[15.043117] (-) TimerEvent: {}
+[15.143416] (-) TimerEvent: {}
+[15.243672] (-) TimerEvent: {}
+[15.343878] (-) TimerEvent: {}
+[15.444104] (-) TimerEvent: {}
+[15.544645] (-) TimerEvent: {}
+[15.644958] (-) TimerEvent: {}
+[15.745295] (-) TimerEvent: {}
+[15.845510] (-) TimerEvent: {}
+[15.945810] (-) TimerEvent: {}
+[16.046170] (-) TimerEvent: {}
+[16.146560] (-) TimerEvent: {}
+[16.246929] (-) TimerEvent: {}
+[16.347202] (-) TimerEvent: {}
+[16.447518] (-) TimerEvent: {}
+[16.547965] (-) TimerEvent: {}
+[16.648414] (-) TimerEvent: {}
+[16.748812] (-) TimerEvent: {}
+[16.849228] (-) TimerEvent: {}
+[16.949643] (-) TimerEvent: {}
+[17.049943] (-) TimerEvent: {}
+[17.150155] (-) TimerEvent: {}
+[17.250368] (-) TimerEvent: {}
+[17.350636] (-) TimerEvent: {}
+[17.450858] (-) TimerEvent: {}
+[17.551149] (-) TimerEvent: {}
+[17.651382] (-) TimerEvent: {}
+[17.751576] (-) TimerEvent: {}
+[17.851852] (-) TimerEvent: {}
+[17.952213] (-) TimerEvent: {}
+[18.052737] (-) TimerEvent: {}
+[18.153089] (-) TimerEvent: {}
+[18.253308] (-) TimerEvent: {}
+[18.353561] (-) TimerEvent: {}
+[18.453887] (-) TimerEvent: {}
+[18.554155] (-) TimerEvent: {}
+[18.654414] (-) TimerEvent: {}
+[18.754667] (-) TimerEvent: {}
+[18.854906] (-) TimerEvent: {}
+[18.955250] (-) TimerEvent: {}
+[19.055680] (-) TimerEvent: {}
+[19.156246] (-) TimerEvent: {}
+[19.256656] (-) TimerEvent: {}
+[19.356856] (-) TimerEvent: {}
+[19.457164] (-) TimerEvent: {}
+[19.557470] (-) TimerEvent: {}
+[19.657739] (-) TimerEvent: {}
+[19.757928] (-) TimerEvent: {}
+[19.858208] (-) TimerEvent: {}
+[19.958453] (-) TimerEvent: {}
+[20.058670] (-) TimerEvent: {}
+[20.158960] (-) TimerEvent: {}
+[20.259261] (-) TimerEvent: {}
+[20.359706] (-) TimerEvent: {}
+[20.460018] (-) TimerEvent: {}
+[20.560317] (-) TimerEvent: {}
+[20.660597] (-) TimerEvent: {}
+[20.760852] (-) TimerEvent: {}
+[20.861076] (-) TimerEvent: {}
+[20.961320] (-) TimerEvent: {}
+[21.061604] (-) TimerEvent: {}
+[21.162081] (-) TimerEvent: {}
+[21.262395] (-) TimerEvent: {}
+[21.362806] (-) TimerEvent: {}
+[21.463077] (-) TimerEvent: {}
+[21.563336] (-) TimerEvent: {}
+[21.663584] (-) TimerEvent: {}
+[21.763838] (-) TimerEvent: {}
+[21.864179] (-) TimerEvent: {}
+[21.964513] (-) TimerEvent: {}
+[22.064903] (-) TimerEvent: {}
+[22.165352] (-) TimerEvent: {}
+[22.265686] (-) TimerEvent: {}
+[22.365962] (-) TimerEvent: {}
+[22.466395] (-) TimerEvent: {}
+[22.566758] (-) TimerEvent: {}
+[22.667013] (-) TimerEvent: {}
+[22.767318] (-) TimerEvent: {}
+[22.867577] (-) TimerEvent: {}
+[22.967913] (-) TimerEvent: {}
+[23.068336] (-) TimerEvent: {}
+[23.168652] (-) TimerEvent: {}
+[23.268839] (-) TimerEvent: {}
+[23.369030] (-) TimerEvent: {}
+[23.469287] (-) TimerEvent: {}
+[23.569589] (-) TimerEvent: {}
+[23.669851] (-) TimerEvent: {}
+[23.770069] (-) TimerEvent: {}
+[23.870280] (-) TimerEvent: {}
+[23.970592] (-) TimerEvent: {}
+[24.070869] (-) TimerEvent: {}
+[24.171124] (-) TimerEvent: {}
+[24.271449] (-) TimerEvent: {}
+[24.371921] (-) TimerEvent: {}
+[24.472220] (-) TimerEvent: {}
+[24.572642] (-) TimerEvent: {}
+[24.673118] (-) TimerEvent: {}
+[24.773316] (-) TimerEvent: {}
+[24.873531] (-) TimerEvent: {}
+[24.973785] (-) TimerEvent: {}
+[25.074154] (-) TimerEvent: {}
+[25.174581] (-) TimerEvent: {}
+[25.275053] (-) TimerEvent: {}
+[25.375397] (-) TimerEvent: {}
+[25.475901] (-) TimerEvent: {}
+[25.576320] (-) TimerEvent: {}
+[25.676720] (-) TimerEvent: {}
+[25.777111] (-) TimerEvent: {}
+[25.877440] (-) TimerEvent: {}
+[25.977879] (-) TimerEvent: {}
+[26.078148] (-) TimerEvent: {}
+[26.178376] (-) TimerEvent: {}
+[26.278707] (-) TimerEvent: {}
+[26.379248] (-) TimerEvent: {}
+[26.479559] (-) TimerEvent: {}
+[26.579941] (-) TimerEvent: {}
+[26.680334] (-) TimerEvent: {}
+[26.780615] (-) TimerEvent: {}
+[26.880819] (-) TimerEvent: {}
+[26.981349] (-) TimerEvent: {}
+[27.081632] (-) TimerEvent: {}
+[27.182001] (-) TimerEvent: {}
+[27.282411] (-) TimerEvent: {}
+[27.382845] (-) TimerEvent: {}
+[27.483701] (-) TimerEvent: {}
+[27.584079] (-) TimerEvent: {}
+[27.684391] (-) TimerEvent: {}
+[27.784657] (-) TimerEvent: {}
+[27.885047] (-) TimerEvent: {}
+[27.985357] (-) TimerEvent: {}
+[28.085668] (-) TimerEvent: {}
+[28.186115] (-) TimerEvent: {}
+[28.286663] (-) TimerEvent: {}
+[28.387056] (-) TimerEvent: {}
+[28.487415] (-) TimerEvent: {}
+[28.587705] (-) TimerEvent: {}
+[28.687995] (-) TimerEvent: {}
+[28.788220] (-) TimerEvent: {}
+[28.888475] (-) TimerEvent: {}
+[28.988753] (-) TimerEvent: {}
+[29.089134] (-) TimerEvent: {}
+[29.189851] (-) TimerEvent: {}
+[29.290114] (-) TimerEvent: {}
+[29.390421] (-) TimerEvent: {}
+[29.490784] (-) TimerEvent: {}
+[29.591094] (-) TimerEvent: {}
+[29.691399] (-) TimerEvent: {}
+[29.791742] (-) TimerEvent: {}
+[29.892115] (-) TimerEvent: {}
+[29.992490] (-) TimerEvent: {}
+[30.092730] (-) TimerEvent: {}
+[30.193078] (-) TimerEvent: {}
+[30.293385] (-) TimerEvent: {}
+[30.394007] (-) TimerEvent: {}
+[30.475100] (myrobot_description) CommandEnded: {'returncode': 8}
+[30.475661] (myrobot_description) TestFailure: {'identifier': 'myrobot_description'}
+[30.475680] (myrobot_description) JobEnded: {'identifier': 'myrobot_description', 'rc': 0}
+[30.476270] (-) EventReactorShutdown: {}
