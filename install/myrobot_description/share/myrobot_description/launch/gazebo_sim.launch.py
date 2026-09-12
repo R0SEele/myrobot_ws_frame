@@ -1,1 +1,0 @@
-/home/rose/ros_project/ros_ws/src/myrobot_description/launch/gazebo_sim.launch.py

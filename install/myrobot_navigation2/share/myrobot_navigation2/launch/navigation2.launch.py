@@ -1,1 +1,0 @@
-/home/rose/ros_project/ros_ws/src/myrobot_navigation2/launch/navigation2.launch.py

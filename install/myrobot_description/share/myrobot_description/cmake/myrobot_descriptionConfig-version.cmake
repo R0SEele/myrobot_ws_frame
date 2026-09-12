@@ -1,1 +1,0 @@
-/home/rose/ros_project/ros_ws/build/myrobot_description/ament_cmake_core/myrobot_descriptionConfig-version.cmake

@@ -1,9 +1,0 @@
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/uninstall.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/myrobot_description_uninstall.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/test.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/edit_cache.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/rebuild_cache.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/list_install_components.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/install.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/install/local.dir
-/home/rose/ros_project/ros_ws/build/myrobot_description/CMakeFiles/install/strip.dir

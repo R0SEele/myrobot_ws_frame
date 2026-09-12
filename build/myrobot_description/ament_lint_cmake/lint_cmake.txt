@@ -1,9 +1,0 @@
--- run_test.py: invoking following command in '/home/rose/ros_project/ros_ws/src/myrobot_description':
- - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml
-
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/rose/ros_project/ros_ws/build/myrobot_description/test_results/myrobot_description/lint_cmake.xunit.xml'
