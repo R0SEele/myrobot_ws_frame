@@ -137,6 +137,11 @@ controller_server:
       plugin: "nav2_controller::SimpleGoalChecker"
       xy_goal_tolerance: 0.15
       yaw_goal_tolerance: 0.15
+    # 自定义控制器测试
+    # FollowPath:
+      # plugin: "nav2_custom_controller::CustomController"
+      # max_linear_speed: 0.1
+      # max_angular_speed: 1.0
     # DWB parameters
     FollowPath:
       plugin: "dwb_core::DWBLocalPlanner"

@@ -1,0 +1,45 @@
+[0.160s] Invoking command in '/home/rose/ros_project/ros_ws/build/myrobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rose/ros_project/ros_ws/build/myrobot_description -- -j8 -l8
+[0.189s] Invoked command in '/home/rose/ros_project/ros_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rose/ros_project/ros_ws/build/myrobot_description -- -j8 -l8
+[0.197s] Invoking command in '/home/rose/ros_project/ros_ws/build/myrobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rose/ros_project/ros_ws/build/myrobot_description
+[0.205s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/launch/__pycache__/gazebo_sim.launch.cpython-310.pyc
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/launch/display_robot.launch.py
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/launch/gazebo_sim.launch.py
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/first_robot.gv
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/first_robot.pdf
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/first_robot.urdf
+[0.207s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/first_robot.xacro
+[0.208s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/actuator/caster.urdf.xacro
+[0.208s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/actuator/wheel.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/base.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/common_inertia.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/myrobot.ros2_control.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/myrobot.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/plugins/gazebo_control_plugins.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/plugins/gazebo_sensor_plugins.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/sensor/camera.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/sensor/imu.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot/sensor/laser.urdf.xacro
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/config/display_robot_model.rviz
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/config/myrobot_ros2_controller.yaml
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/world/custom_room.world
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/world/room/model.config
+[0.211s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/world/room/model.sdf
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/ament_index/resource_index/package_run_dependencies/myrobot_description
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/ament_index/resource_index/parent_prefix_path/myrobot_description
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.sh
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/environment/path.sh
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/environment/path.dsv
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/local_setup.bash
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/local_setup.sh
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/local_setup.zsh
+[0.212s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/local_setup.dsv
+[0.212s] -- Symlinking: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/package.dsv
+[0.220s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/ament_index/resource_index/packages/myrobot_description
+[0.223s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig.cmake
+[0.223s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig-version.cmake
+[0.224s] -- Up-to-date symlink: /home/rose/ros_project/ros_ws/install/myrobot_description/share/myrobot_description/package.xml
+[0.225s] Invoked command in '/home/rose/ros_project/ros_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rose/ros_project/ros_ws/build/myrobot_description
